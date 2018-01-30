@@ -1,8 +1,6 @@
 package com.mytests.springboot.actuator.multimod.mod2;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.actuate.autoconfigure.context.properties.ConfigurationPropertiesReportEndpointProperties;
-import org.springframework.boot.actuate.endpoint.EndpointExposure;
 import org.springframework.boot.actuate.endpoint.annotation.Endpoint;
 import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
 import org.springframework.boot.actuate.endpoint.annotation.Selector;
@@ -17,7 +15,7 @@ import java.util.List;
  * Project: multimodule-actuator-test0
  * *******************************
  */
-@Endpoint(id = "listEndpoints")
+@Endpoint(id = "listendpoints")
 public class ListEndpoints {
 
 

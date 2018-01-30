@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * *******************************
  */
 @Component
-@Endpoint(id = "customEndpoint")
+@Endpoint(id = "custom-endpoint")
 public class MyEndpoint1 {
 
     @ReadOperation
